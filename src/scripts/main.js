@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
         let numeroAleatorio = Math.random() * numeroMaximo;
         numeroAleatorio = Math.floor(numeroAleatorio) + 1;
 
-        document.getElementById('resultado-valor').innerText = mensagem;
+        document.getElementById('resultado-valor').innerText = numeroAleatorio;
         document.querySelector('.resultado').style.display = 'block';
     })
 })
