@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
     let sequencia = [];
     const codigoSecreto = ['l', 'a', 'r', 'a'];
     
-    document.addEventListener('keypress', function(e) {
+    document.addEventListener('keydown', function(e) {
         sequencia.push(e.key.toLowerCase());
         sequencia = sequencia.slice(-codigoSecreto.length);
         
